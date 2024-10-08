@@ -1,0 +1,15 @@
+# ninja log v6
+1034	3447	7500174544944046	CMakeFiles/AeroGestor.dir/AeroGestor_autogen/mocs_compilation.cpp.obj	675baba2c504dd34
+149	1033	7500174544024625	C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor_autogen/mocs_compilation.cpp	ec80efb593df9ba8
+149	1033	7500174544024625	AeroGestor_autogen/timestamp	ec80efb593df9ba8
+87	145	7500274977339845	C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	211bd77c26b4de6c
+149	1033	7500174544024625	AeroGestor_autogen/mocs_compilation.cpp	ec80efb593df9ba8
+1040	3569	7500174545004047	CMakeFiles/AeroGestor.dir/main.cpp.obj	18a68339fbaa6ac9
+1058	1949	7500174545180759	CMakeFiles/AeroGestor.dir/authSystem.cpp.obj	b8fbc9c8edf25ecd
+149	1033	7500174544024625	C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor_autogen/timestamp	ec80efb593df9ba8
+1052	1629	7500174545117846	CMakeFiles/AeroGestor.dir/admin.cpp.obj	d9f29ef501b7b8c9
+1046	3752	7500174545067525	CMakeFiles/AeroGestor.dir/mainwindow.cpp.obj	b10b86c55a8efe72
+3752	4390	7500174572087700	AeroGestor.exe	73f7c2cd7d963ca5
+89	928	7500280578571893	build.ninja	a7666a71a918b5c2
+267	419	7500116709520862	CMakeFiles/AeroGestor.dir/user.cpp.obj	3cfa80560bad18d8
+1063	1632	7500174545227592	CMakeFiles/AeroGestor.dir/manager.cpp.obj	f857fcf057dc1d70
