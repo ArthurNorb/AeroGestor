@@ -7,20 +7,22 @@ class User {
 protected:
     std::string username;
     std::string password;
-    std::string role;
 
 public:
-    User(const std::string& uname, const std::string& pwd, const std::string& r)
-        : username(uname), password(pwd), role(r) {}
+    User(const std::string& username, const std::string& password)
+        : username(username), password(password) {}
 
     virtual ~User() = default;
 
-    std::string getUsername() const { return username; }
-    bool checkPassword(const std::string& pwd) const { return password == pwd; }
+    std::string getUsername() const {
+        return username;
+    }
 
-    std::string getRole() const { return role; }  // Método adicionado para obter o papel do usuário
+    bool checkPassword(const std::string& pass) const {
+        return pass == password;
+    }
 
-    virtual void showMenu() const = 0;  // Método virtual puro para cada tipo de usuário
+    virtual std::string getRole() const = 0;  // Método virtual puro para o tipo de usuário
 };
 
 #endif // USER_H

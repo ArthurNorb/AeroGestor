@@ -3,184 +3,195 @@
 cmake_policy(SET CMP0009 NEW)
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.c++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.c++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.cc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.cc")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.ch")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.ch")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.cpp")
 set(OLD_GLOB
-  "C:/Users/pedro/AeroGestor/admin.cpp"
-  "C:/Users/pedro/AeroGestor/authSystem.cpp"
-  "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor_autogen/EWIEGA46WW/moc_mainwindow.cpp"
-  "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor_autogen/mocs_compilation.cpp"
-  "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "C:/Users/pedro/AeroGestor/main.cpp"
-  "C:/Users/pedro/AeroGestor/mainmenu.cpp"
-  "C:/Users/pedro/AeroGestor/mainwindow.cpp"
-  "C:/Users/pedro/AeroGestor/manager.cpp"
-  "C:/Users/pedro/AeroGestor/user.cpp"
+  "C:/Users/pedro/AeroGestor1/admin.cpp"
+  "C:/Users/pedro/AeroGestor1/admin_interface.cpp"
+  "C:/Users/pedro/AeroGestor1/aeronave.cpp"
+  "C:/Users/pedro/AeroGestor1/authSystem.cpp"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor1_autogen/EWIEGA46WW/moc_admin_interface.cpp"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor1_autogen/EWIEGA46WW/moc_loginWindow.cpp"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor1_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor1_autogen/EWIEGA46WW/moc_manager_interface.cpp"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor1_autogen/EWIEGA46WW/moc_mechanic_interface.cpp"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor1_autogen/mocs_compilation.cpp"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/Users/pedro/AeroGestor1/loginWindow.cpp"
+  "C:/Users/pedro/AeroGestor1/main.cpp"
+  "C:/Users/pedro/AeroGestor1/mainwindow.cpp"
+  "C:/Users/pedro/AeroGestor1/manager.cpp"
+  "C:/Users/pedro/AeroGestor1/manager_interface.cpp"
+  "C:/Users/pedro/AeroGestor1/mechanic.cpp"
+  "C:/Users/pedro/AeroGestor1/mechanic_interface.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.cxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.cxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.h")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.h")
 set(OLD_GLOB
-  "C:/Users/pedro/AeroGestor/admin.h"
-  "C:/Users/pedro/AeroGestor/authSystem.h"
-  "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor_autogen/include/ui_mainwindow.h"
-  "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor_autogen/moc_predefs.h"
-  "C:/Users/pedro/AeroGestor/mainmenu.h"
-  "C:/Users/pedro/AeroGestor/mainwindow.h"
-  "C:/Users/pedro/AeroGestor/manager.h"
-  "C:/Users/pedro/AeroGestor/user.h"
+  "C:/Users/pedro/AeroGestor1/admin.h"
+  "C:/Users/pedro/AeroGestor1/admin_interface.h"
+  "C:/Users/pedro/AeroGestor1/aeronave.h"
+  "C:/Users/pedro/AeroGestor1/authSystem.h"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor1_autogen/include/ui_mainwindow.h"
+  "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor1_autogen/moc_predefs.h"
+  "C:/Users/pedro/AeroGestor1/loginWindow.h"
+  "C:/Users/pedro/AeroGestor1/mainwindow.h"
+  "C:/Users/pedro/AeroGestor1/manager.h"
+  "C:/Users/pedro/AeroGestor1/manager_interface.h"
+  "C:/Users/pedro/AeroGestor1/mechanic.h"
+  "C:/Users/pedro/AeroGestor1/mechanic_interface.h"
+  "C:/Users/pedro/AeroGestor1/user.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.h++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.h++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.hh")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.hh")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.hpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.hpp")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.hxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.hxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.java")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.java")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.js")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.js")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.jui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.jui")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.qml")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.qml")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.qrc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.qrc")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.qs")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.qs")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor/*.ui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/pedro/AeroGestor1/*.ui")
 set(OLD_GLOB
-  "C:/Users/pedro/AeroGestor/mainmenu.ui"
-  "C:/Users/pedro/AeroGestor/mainwindow.ui"
-  "C:/Users/pedro/AeroGestor/menuPrincipal.ui"
+  "C:/Users/pedro/AeroGestor1/mainwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/pedro/AeroGestor1/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
 endif()
