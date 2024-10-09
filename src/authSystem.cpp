@@ -1,4 +1,4 @@
-#include "authSystem.h"
+#include "../include/authSystem.h"
 #include <iostream>
 
 AuthSystem::AuthSystem() {

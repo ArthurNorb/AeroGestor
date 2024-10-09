@@ -1,15 +1,15 @@
 #include <QApplication>
 #include <memory>        // Necessário para std::shared_ptr
-#include "loginwindow.h"
-#include "mechanic_interface.h"
-#include "manager_interface.h"
-#include "admin_interface.h"
-#include "authSystem.h"  // Certifique-se de que AuthSystem esteja corretamente incluído
-#include "admin.h"
-#include "manager.h"
-#include "mechanic.h"
-#include "aeronave.h"
-#include "user.h"        // Certifique-se de que User esteja corretamente incluído
+#include "../include/loginwindow.h"
+#include "../interfaces/mechanic_interface.h"
+#include "../interfaces/manager_interface.h"
+#include "../interfaces/admin_interface.h"
+#include "../include/authSystem.h"  // Certifique-se de que AuthSystem esteja corretamente incluído
+#include "../include/admin.h"
+#include "../include/manager.h"
+#include "../include/mechanic.h"
+#include "../include/aeronave.h"
+#include "../include/user.h"        // Certifique-se de que User esteja corretamente incluído
 
 std::vector<Aeronave> frota;            // Frota geral
 std::vector<Aeronave> frotaEmManutencao; // Frota em manutenção
