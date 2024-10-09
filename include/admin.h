@@ -2,20 +2,27 @@
 #define ADMIN_H
 
 #include "user.h"
-#include <iostream>
+#include "aeronave.h"
+#include "mechanic.h"
+#include "manager.h"
+#include <vector>
 
 class Admin : public User {
 public:
     // Construtor
-    Admin(const std::string& uname, const std::string& pwd);
+    Admin(const std::string& username, const std::string& password);
 
-    // Sobrescrevendo o método showMenu da classe User
-    void showMenu() const override;
+    // Retorna o papel do usuário
+    std::string getRole() const override;
 
-    // Funções específicas para o administrador
-    void manageUsers() const;       // Gerenciar usuários (pilotos, gestores, mecânicos)
-    void manageAircraft() const;    // Gerenciar aeronaves
-    void manageMechanics() const;   // Gerenciar mecânicos
+    // Cadastra uma aeronave na frota
+    void cadastrarAeronave(std::vector<Aeronave>& frota, const Aeronave& aeronave) const;
+
+    // Editar mecânico
+    void editarUsuario(Mechanic& mechanic, const std::string& novoNome) const;
+
+    // Editar gestor
+    void editarUsuario(Manager& manager, const std::string& novoNome) const;
 };
 
 #endif // ADMIN_H

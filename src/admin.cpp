@@ -1,32 +1,25 @@
 #include "admin.h"
+#include <iostream>
 
-// Construtor
-Admin::Admin(const std::string& uname, const std::string& pwd)
-    : User(uname, pwd, "Admin") {}  // Chamando o construtor da classe base
+Admin::Admin(const std::string& username, const std::string& password)
+    : User(username, password) {}
 
-// Sobrescreve o método para exibir o menu do administrador
-void Admin::showMenu() const {
-    std::cout << "---- Menu do Administrador ----\n";
-    std::cout << "1. Gerenciar Usuários\n";
-    std::cout << "2. Gerenciar Aeronaves\n";
-    std::cout << "3. Gerenciar Mecânicos\n";
-    std::cout << "4. Sair\n";
+std::string Admin::getRole() const {
+    return "Admin";
 }
 
-// Implementação da função para gerenciar usuários
-void Admin::manageUsers() const {
-    std::cout << "Gerenciamento de usuários. [Exemplo de funcionalidade]\n";
-    // Aqui você pode implementar a lógica para adicionar/remover/editar usuários
+void Admin::cadastrarAeronave(std::vector<Aeronave>& frota, const Aeronave& aeronave) const {
+    frota.push_back(aeronave);
+    std::cout << "Aeronave " << aeronave.getMatricula() << " cadastrada com sucesso." << std::endl;
 }
 
-// Implementação da função para gerenciar aeronaves
-void Admin::manageAircraft() const {
-    std::cout << "Gerenciamento de aeronaves. [Exemplo de funcionalidade]\n";
-    // Aqui você pode implementar a lógica para adicionar/remover/editar aeronaves
+void Admin::editarUsuario(Mechanic& mechanic, const std::string& novoNome) const {
+    //mechanic = Mechanic(novoNome, mechanic.getId());
+    //std::cout << "Mecânico atualizado: " << novoNome << std::endl;
 }
 
-// Implementação da função para gerenciar mecânicos
-void Admin::manageMechanics() const {
-    std::cout << "Gerenciamento de mecânicos. [Exemplo de funcionalidade]\n";
-    // Aqui você pode implementar a lógica para adicionar/remover/editar mecânicos
+void Admin::editarUsuario(Manager& manager, const std::string& novoNome) const {
+    //manager = Manager(novoNome, manager.getId());
+    //std::cout << "Gestor atualizado: " << novoNome << std::endl;
 }
+

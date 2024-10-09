@@ -2,21 +2,18 @@
 #define MANAGER_H
 
 #include "user.h"
-#include <iostream>
+#include "aeronave.h"  // Inclua para que Manager possa usar a classe Aeronave
 
 class Manager : public User {
 public:
     // Construtor
-    Manager(const std::string& uname, const std::string& pwd);
+    Manager(const std::string& username, const std::string& password);
 
-    // Sobrescrevendo o método showMenu da classe User
-    void showMenu() const override;
+    // Retorna o papel do usuário
+    std::string getRole() const override;
 
-    // Função específica para gerenciar aeronaves
-    void manageFleet() const;
-
-    // Função específica para verificar aeronaves em manutenção
-    void viewMaintenanceStatus() const;
+    // Envia uma aeronave para manutenção
+    void enviarParaManutencao(Aeronave& aeronave) const;
 };
 
 #endif // MANAGER_H
