@@ -1,5 +1,5 @@
-#include "mainmenu.h"
-#include "ui_mainmenu.h"
+#include "../include/mainmenu.h"
+#include "../ui/mainmenu.ui"
 
 
 

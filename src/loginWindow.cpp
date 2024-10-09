@@ -1,4 +1,4 @@
-#include "loginwindow.h"
+#include "../include/loginwindow.h"
 #include <QMessageBox>
 #include <Qlabel>
 

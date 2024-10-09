@@ -1,4 +1,4 @@
-#include "aeronave.h"
+#include "../include/aeronave.h"
 #include <iostream>
 
 // Construtor
